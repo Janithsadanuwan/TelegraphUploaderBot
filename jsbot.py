@@ -19,7 +19,25 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
-I can upload photos or videos to telegraph.
+👻 This is a Telegraph uploader bot
+for telegram.You can upload below types
+to telegraph easily by using this bot
+
+👇 You can upload 👇
+
+📽️ Short Videos (Must be less than 5MB).
+🎬 Round Videos.
+🖼️ Pictures.
+💥 Animations.
+💟 Stickers.
+📜 Text Posts.
+📩 Inbox Supported.
+👥 Group Supported.
+🚀 Fast Uploading.
+
+✍️ඔයාට අවශ්‍ය උඩ තියෙන ඕනෑම Media
+එකක් මේ BOT ගෙන් Telegraph එකට Upload
+කරල එකේ direct link එක ගන්න පුලුවන්😝
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
