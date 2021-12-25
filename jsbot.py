@@ -25,9 +25,9 @@ Hit help button to find out more about how to use me</b>""",
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "💠Help", callback_data="help"),
+                                            "🌷Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "🖤Channel", url="https://t.me/FZBOTS")
+                                            "✨Channel", url="https://t.me/janithsbots")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -48,7 +48,7 @@ Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
                                         InlineKeyboardButton(
                                             "🔙Back", callback_data="start"),
                                         InlineKeyboardButton(
-                                            "🧮About", callback_data="about"),
+                                            "👻About", callback_data="about"),
                                   ]]
                             ),        
             disable_web_page_preview=True,        
@@ -61,7 +61,7 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
 
-<b>⚜️Developer:</b> <a href="https://t.me/FZBOTS">Js BOTS🇱🇰</a>
+<b>⚜️Developer:</b> <a href="https://t.me/janith_sadanuwan">Janith sadanuwan🇱🇰</a>
 
 <b>🔆Language:</b> <a href="https://www.python.org/">Python 3</a>
 
@@ -89,7 +89,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("Photo size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n📚https://telegra.ph{response[0]}\n\nJoin @FZBOTS**',
+        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin @FZBOTS**',
             disable_web_page_preview=False,
         )
     finally:
@@ -105,7 +105,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("Video size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n📚https://telegra.ph{response[0]}\n\nJoin @FZBOTS**',
+        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin @FZBOTS**',
             disable_web_page_preview=False,
         )
     finally:
@@ -121,7 +121,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("Gif size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n📚https://telegra.ph{response[0]}\n\nJoin @FZBOTS**',
+        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin @FZBOTS**',
             disable_web_page_preview=False,
         )
     finally:
