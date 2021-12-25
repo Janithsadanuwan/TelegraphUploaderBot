@@ -38,11 +38,13 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jsbot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Telegraph Bot Help!
+               text="""<b>Telegraph Bot Help🙈
 
-Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
+Just send a photo or video less than 5mb file size, I'll upload it to telegraph.🎉
 
-@JSBOTS</b>""",
+☘️ Dҽᐯҽ𝘭๏pҽᏒ : @janith_sadanuwan
+
+@janithsbots</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -61,13 +63,13 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
 
-<b>⚜️Developer:</b> <a href="https://t.me/janith_sadanuwan">Janith sadanuwan🇱🇰</a>
+<b>☘️ Dҽᐯҽ𝘭๏pҽᏒ :</b> <a href="https://t.me/janith_sadanuwan">Janith sadanuwan🇱🇰</a>
 
 <b>🔆Language:</b> <a href="https://www.python.org/">Python 3</a>
 
 <b>♻️Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>@FZBOTS</b>""",
+<b>@janithsbots</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
