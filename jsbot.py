@@ -111,7 +111,7 @@ async def telegraphvid(client, message):
     finally:
         os.remove(download_location)
 
-@Fzbot.on_message(filters.animation)
+@Jsbot.on_message(filters.animation)
 async def telegraphgif(client, message):
     msg = await message.reply_text("Uploading To Telegraph...")
     download_location = await client.download_media(
