@@ -1,1 +1,1 @@
-worker: python3 fzbot.py
+worker: python3 jsbot.py
