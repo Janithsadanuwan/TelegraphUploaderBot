@@ -5,17 +5,17 @@ from telegraph import upload_file
 from config import Config
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-Fzbot = Client(
+Jsbot = Client(
    "Telegraph Uploader",
    api_id=Config.APP_ID,
    api_hash=Config.API_HASH,
    bot_token=Config.TG_BOT_TOKEN,
 )
 
-@Fzbot.on_message(filters.command("start"))
+@Jsbot.on_message(filters.command("start"))
 async def start(client, message):
    if message.chat.type == 'private':
-       await Fzbot.send_message(
+       await Jsbot.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
@@ -33,16 +33,16 @@ Hit help button to find out more about how to use me</b>""",
             disable_web_page_preview=True,        
             parse_mode="html")
 
-@Fzbot.on_message(filters.command("help"))
+@Jsbot.on_message(filters.command("help"))
 async def help(client, message):
     if message.chat.type == 'private':   
-        await Fzbot.send_message(
+        await Jsbot.send_message(
                chat_id=message.chat.id,
                text="""<b>Telegraph Bot Help!
 
 Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
 
-@FZBOTS</b>""",
+@JSBOTS</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -54,14 +54,14 @@ Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
             disable_web_page_preview=True,        
             parse_mode="html")
 
-@Fzbot.on_message(filters.command("about"))
+@Jsbot.on_message(filters.command("about"))
 async def about(client, message):
     if message.chat.type == 'private':   
-        await Fzbot.send_message(
+        await Jsbot.send_message(
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
 
-<b>⚜️Developer:</b> <a href="https://t.me/FZBOTS">FZ BOTS🇱🇰</a>
+<b>⚜️Developer:</b> <a href="https://t.me/FZBOTS">Js BOTS🇱🇰</a>
 
 <b>🔆Language:</b> <a href="https://www.python.org/">Python 3</a>
 
@@ -79,7 +79,7 @@ async def about(client, message):
             disable_web_page_preview=True,        
             parse_mode="html")
 
-@Fzbot.on_message(filters.photo)
+@Jsbot.on_message(filters.photo)
 async def telegraphphoto(client, message):
     msg = await message.reply_text("Uploading To Telegraph...")
     download_location = await client.download_media(
@@ -95,7 +95,7 @@ async def telegraphphoto(client, message):
     finally:
         os.remove(download_location)
 
-@Fzbot.on_message(filters.video)
+@Jsbot.on_message(filters.video)
 async def telegraphvid(client, message):
     msg = await message.reply_text("Uploading To Telegraph...")
     download_location = await client.download_media(
@@ -127,7 +127,7 @@ async def telegraphgif(client, message):
     finally:
         os.remove(download_location)
 
-@Fzbot.on_callback_query()
+@Jsbot.on_callback_query()
 async def button(bot, update):
       cb_data = update.data
       if "help" in cb_data:
@@ -143,8 +143,8 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @FZBOTS
+Join @JsBOTS
 """
 )
 
-Fzbot.run()
+Jsbot.run()
