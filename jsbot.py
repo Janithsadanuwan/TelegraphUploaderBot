@@ -41,7 +41,7 @@ to telegraph easily by using this bot
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
-                               [[
+                               [[[
                                         InlineKeyboardButton(
                                             "🌷Help", callback_data="help"),
                                         InlineKeyboardButton(
@@ -49,8 +49,7 @@ Hit help button to find out more about how to use me</b>""",
                                          InlineKeyboardButton(
 
                                             "Youtube Channel", url="www.youtube.com/Janithsadanuwan")
-                                  [[
-                                     
+                                    ]]
                             ),
             disable_web_page_preview=True,        
             parse_mode="html")
