@@ -41,42 +41,16 @@ to telegraph easily by using this bot
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
-                                [
-        [
-            InlineKeyboardButton(
-                text="🆘 Help ", callback_data = "helpmenu_"
-            ),
-            InlineKeyboardButton(
-                text="Stats 📊",
-                callback_data="stats_callback",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="📦Socure ", url = "https://github.com/szsupunma/sz-rose-bot"
-            ),
-            InlineKeyboardButton(
-                text="Web site🌏",
-                url ="https://szsupunma.github.io/supunma/",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🗣 Updates", url="https://t.me/szteambots"
-            ),
-            InlineKeyboardButton(
-                text="👥 Support",
-                url="https://t.me/slbotzone",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="➕ Add Me To Your Group ➕",
-                url=f"t.me/szrosebot?startgroup=true",
-            )
-        ],
-    ]
-)
+                               [[
+                                        InlineKeyboardButton(
+                                            "🌷Help", callback_data="help"),
+                                        InlineKeyboardButton(
+                                            "✨Channel", url="https://t.me/janithsbots"),
+                                         InlineKeyboardButton(
+
+                                            "Youtube Channel", url="www.youtube.com/Janithsadanuwan")
+                                    ]]
+                            ),
             disable_web_page_preview=True,        
             parse_mode="html")
 
