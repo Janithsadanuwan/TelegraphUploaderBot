@@ -48,7 +48,10 @@ Hit help button to find out more about how to use me</b>""",
                                             "✨Channel", url="https://t.me/janithsbots"),
                                          InlineKeyboardButton(
 
-                                            "Youtube Channel", url="www.youtube.com/Janithsadanuwan")
+                                            "Youtube Channel", url="www.youtube.com/Janithsadanuwan"),
+                                         InlineKeyboardButton(
+ 
+                                            "➕ Add Me To Your Group ➕", url="http://t.me/The_Thelegraph_Uploader_Bot?startgroup=botstart")
                                     ]]
                             ),
             disable_web_page_preview=True,        
