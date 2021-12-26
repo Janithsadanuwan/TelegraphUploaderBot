@@ -51,12 +51,6 @@ Hit help button to find out more about how to use me</b>""",
                                             "Youtube Channel", url="www.youtube.com/Janithsadanuwan")
                                   [[
                                      
-                                   reply_markup=InlineKeyboardMarkup(
-                               [[
-                                         InlineKeyboardButton(
- 
-                                            "➕ Add Me To Your Group ➕", url="http://t.me/The_Thelegraph_Uploader_Bot?startgroup=botstart")
-                                    ]]
                             ),
             disable_web_page_preview=True,        
             parse_mode="html")
