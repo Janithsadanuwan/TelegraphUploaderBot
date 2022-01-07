@@ -45,7 +45,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "🌷Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "✨Channel", url="https://t.me/janithsbots"),
+                                            "✨Channel", url="https://t.me/SLDeveloper"),
                                          InlineKeyboardButton(
 
                                             "Youtube Channel", url="www.youtube.com/Janithsadanuwan")
