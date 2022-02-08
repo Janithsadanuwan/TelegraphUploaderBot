@@ -48,7 +48,7 @@ Hit help button to find out more about how to use me</b>""",
                                             "✨Channel", url="https://t.me/SLDeveloper"),
                                          InlineKeyboardButton(
 
-                                            "Youtube Channel", url="www.youtube.com/Janithsadanuwan")
+                                            "Youtube Channel", url="www.youtube.com/c/Janithsadanuwan")
                                     ]]
                             ),
             disable_web_page_preview=True,        
