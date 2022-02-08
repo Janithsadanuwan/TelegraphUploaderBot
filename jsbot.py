@@ -112,7 +112,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("Photo size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin @janithsbots**',
+        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin  @SLDeveloper**',
             disable_web_page_preview=False,
         )
     finally:
@@ -128,7 +128,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("Video size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin @janithsbots**',
+        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin  @SLDeveloper**',
             disable_web_page_preview=False,
         )
     finally:
@@ -144,7 +144,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("Gif size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin @FZBOTS**',
+        await msg.edit_text(f'**Your File Is Successfully Uploaded To Telegraph!\n\n👻https://telegra.ph{response[0]}\n\nJoin @SLDeveloper**',
             disable_web_page_preview=False,
         )
     finally:
