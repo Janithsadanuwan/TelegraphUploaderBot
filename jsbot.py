@@ -90,7 +90,7 @@ async def about(client, message):
 
 <b>♻️Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>@janithsbots</b>""",
+<b>@SLDeveloper</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
